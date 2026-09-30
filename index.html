@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rafael A. Bosque | E-Portfolio</title>
+<style>
+:root{
+  --green:#1f5f45;
+  --green2:#2f7d5b;
+  --light:#f3f7f4;
+  --ink:#17221d;
+  --muted:#65736b;
+  --white:#fff;
+  --line:#dce7e0;
+}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff;line-height:1.65}
+a{color:inherit;text-decoration:none}
+nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.96);border-bottom:1px solid var(--line);backdrop-filter:blur(8px)}
+.nav-inner{max-width:1120px;margin:auto;padding:14px 22px;display:flex;justify-content:space-between;align-items:center}
+.brand{font-weight:800;letter-spacing:.4px;color:var(--green)}
+.links{display:flex;gap:20px;flex-wrap:wrap;font-size:14px}
+.links a:hover{color:var(--green2)}
+.hero{background:linear-gradient(135deg,#edf6f0,#fff);padding:90px 22px 80px;border-bottom:1px solid var(--line)}
+.hero-inner{max-width:1120px;margin:auto;display:grid;grid-template-columns:1.3fr .7fr;gap:45px;align-items:center}
+.kicker{color:var(--green2);font-weight:700;letter-spacing:1.5px;text-transform:uppercase;font-size:13px}
+h1{font-size:clamp(42px,7vw,72px);line-height:1.02;margin:12px 0 18px}
+.hero h2{font-size:20px;font-weight:500;color:var(--muted);margin:0 0 24px}
+.btn{display:inline-block;background:var(--green);color:#fff;padding:12px 19px;border-radius:8px;font-weight:700;margin-right:8px}
+.btn.alt{background:#fff;color:var(--green);border:1px solid var(--green)}
+.hero-card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:28px;box-shadow:0 14px 35px rgba(20,50,35,.08)}
+.hero-card strong{display:block;color:var(--green);font-size:30px;margin-bottom:5px}
+section{max-width:1120px;margin:auto;padding:78px 22px}
+.section-title{margin:0 0 10px;font-size:34px}
+.section-sub{color:var(--muted);margin:0 0 35px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:45px}
+.card{border:1px solid var(--line);border-radius:14px;padding:25px;background:#fff}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.skill{background:var(--light);border-radius:10px;padding:16px;font-weight:700}
+.timeline{border-left:3px solid #cfe1d6;padding-left:25px}
+.item{margin-bottom:30px}
+.item h3{margin:0 0 3px}
+.meta{color:var(--green2);font-weight:700;font-size:14px}
+.credentials{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.credential{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#fff}
+.credential img{width:100%;height:280px;object-fit:contain;background:#f7f9f8;padding:10px;display:block}
+.credential-body{padding:17px}
+.credential-body h3{margin:0 0 5px;font-size:17px}
+.small{font-size:13px;color:var(--muted)}
+.portfolio{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.port-card{background:var(--light);border-radius:14px;padding:25px;border:1px solid var(--line)}
+footer{background:#173b2c;color:#fff;padding:45px 22px}
+.footer-inner{max-width:1120px;margin:auto;display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap}
+footer a{text-decoration:underline}
+@media(max-width:800px){
+ .hero-inner,.about{grid-template-columns:1fr}
+ .grid,.credentials,.portfolio{grid-template-columns:1fr}
+ .links{gap:10px}
+ .hero{padding-top:60px}
+}
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a class="brand" href="#home">RAFAEL A. BOSQUE</a>
+    <div class="links">
+      <a href="#about">About</a><a href="#education">Education</a><a href="#experience">Experience</a>
+      <a href="#skills">Skills</a><a href="#portfolio">Portfolio</a><a href="#credentials">Credentials</a><a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="home">
+  <div class="hero-inner">
+    <div>
+      <div class="kicker">Professional E-Portfolio</div>
+      <h1>Rafael A. Bosque</h1>
+      <h2>Registered Forester · Social Media Manager · Writer · Video Editor · Content Creator</h2>
+      <p>I am a responsible and creative person who enjoys writing, using social media, editing videos, and creating content. I also enjoy learning about and working with nature and the environment through my studies in Agroforestry.</p>
+      <a class="btn" href="#contact">Contact Me</a>
+      <a class="btn alt" href="#portfolio">View Portfolio</a>
+    </div>
+    <div class="hero-card">
+      <strong>Creative + Environmental</strong>
+      <p>Combining communication, digital content, writing, editing, and an Agroforestry background to create useful and engaging work.</p>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <h2 class="section-title">About Me</h2>
+  <p class="section-sub">A short professional introduction.</p>
+  <div class="about">
+    <div>
+      <p>I am a responsible and creative person who enjoys writing, using social media, editing videos, and creating content. My experience in journalism and serving as an Editor-in-Chief helped me develop my skills in writing, editing, communication, and working with others.</p>
+      <p>I also enjoy learning new software and digital tools that allow me to turn ideas into creative and engaging content. I take initiative, pay attention to details, and am willing to learn from new experiences.</p>
+    </div>
+    <div class="card">
+      <h3>Professional Focus</h3>
+      <p>Social Media Management</p>
+      <p>Content Creation & Writing</p>
+      <p>Video Editing</p>
+      <p>Environmental & Agroforestry Work</p>
+    </div>
+  </div>
+</section>
+
+<section id="education" style="background:var(--light);max-width:none;padding-left:calc((100% - 1076px)/2);padding-right:calc((100% - 1076px)/2)">
+  <h2 class="section-title">Education</h2>
+  <p class="section-sub">Academic background.</p>
+  <div class="card">
+    <h3>Bachelor of Science in Agroforestry</h3>
+    <p class="meta">Caraga State University</p>
+    <p>Academic background in agroforestry, nature, and environmental work.</p>
+  </div>
+</section>
+
+<section id="experience">
+  <h2 class="section-title">Experience</h2>
+  <p class="section-sub">Selected experience and responsibilities.</p>
+  <div class="timeline">
+    <div class="item">
+      <h3>Agroforestry Internship</h3><div class="meta">Department of Environment and Natural Resources · 2026–2027</div>
+      <p>Practical exposure related to agroforestry and environmental work.</p>
+    </div>
+    <div class="item">
+      <h3>Video Editor / Content Creator</h3><div class="meta">The Nexus · Butuan City School of Arts and Trades · 2024–2026</div>
+      <p>Created and edited video content and developed digital media skills.</p>
+    </div>
+    <div class="item">
+      <h3>Editor-in-Chief — School Publication</h3><div class="meta">Campus Solstices · Mat-i National High School · 2022–2024</div>
+      <p>Worked on writing, editing, content creation, communication, and teamwork.</p>
+    </div>
+  </div>
+</section>
+
+<section id="skills" style="background:var(--light);max-width:none;padding-left:calc((100% - 1076px)/2);padding-right:calc((100% - 1076px)/2)">
+  <h2 class="section-title">Skills</h2>
+  <p class="section-sub">Digital, communication, and professional skills.</p>
+  <div class="grid">
+    <div class="skill">Social Media Management</div><div class="skill">Content Creation</div><div class="skill">Video Editing</div>
+    <div class="skill">Content Writing</div><div class="skill">Copywriting</div><div class="skill">Graphic Design</div>
+    <div class="skill">Social Media Marketing</div><div class="skill">Audience Engagement</div><div class="skill">Creative Thinking</div>
+    <div class="skill">Communication Skills</div><div class="skill">Editing Skills</div><div class="skill">Basic Photography</div>
+    <div class="skill">Digital Content Planning</div><div class="skill">Microsoft Word</div><div class="skill">Microsoft Excel / Spreadsheets</div>
+    <div class="skill">Presentation Skills</div><div class="skill">Research Skills</div><div class="skill">Teamwork</div>
+    <div class="skill">Time Management</div><div class="skill">Leadership</div>
+  </div>
+</section>
+
+<section id="portfolio">
+  <h2 class="section-title">Portfolio</h2>
+  <p class="section-sub">Areas that represent my creative and professional work.</p>
+  <div class="portfolio">
+    <div class="port-card"><h3>Writing & Journalism</h3><p>Articles, journals, narratives, editing, and school publication work developed through journalism experience.</p></div>
+    <div class="port-card"><h3>Video & Digital Content</h3><p>Video editing, multimedia work, content creation, and digital communication.</p></div>
+    <div class="port-card"><h3>Social Media</h3><p>Content planning, page management, public notices, audience engagement, and online promotion.</p></div>
+    <div class="port-card"><h3>Agroforestry</h3><p>Academic and practical work connected to nature, environmental resources, and agroforestry.</p></div>
+  </div>
+</section>
+
+<section id="credentials" style="background:var(--light);max-width:none;padding-left:calc((100% - 1076px)/2);padding-right:calc((100% - 1076px)/2)">
+  <h2 class="section-title">Credentials & Recognition</h2>
+  <p class="section-sub">Selected certificates and recognition materials.</p>
+  <div class="credentials">
+    <article class="credential">
+      <img src="multimedia-video.png" alt="Multimedia and Video certificate">
+      <div class="credential-body"><h3>Multimedia & Video</h3><p class="small">Certificate / training credential</p></div>
+    </article>
+    <article class="credential">
+      <img src="degree-mockup.png" alt="Sample degree credential">
+      <div class="credential-body"><h3>Degree Credential</h3><p class="small">Portfolio sample/mock credential for demonstration purposes.</p></div>
+    </article>
+    <article class="credential">
+      <img src="journalism-awards.png" alt="Journalism awards and recognition">
+      <div class="credential-body"><h3>Journalism Recognition</h3><p class="small">Awards and recognition from journalism activities.</p></div>
+    </article>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="footer-inner">
+    <div><h2>Let's Connect</h2><p>I would be happy to discuss opportunities and creative work.</p></div>
+    <div>
+      <p><strong>Email:</strong> <a href="mailto:rafael.bosque@carsu.edu.ph">rafael.bosque@carsu.edu.ph</a></p>
+      <p><strong>Phone:</strong> 09634516575</p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/rafael-bosque-151772433/" target="_blank">rafael-bosque-151772433</a></p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
